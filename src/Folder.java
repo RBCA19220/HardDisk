@@ -8,6 +8,11 @@ public class Folder {
 		this.name=name;
 		this.numfiles=numfiles;
 	}
+	
+	void AddFile()
+	{
+		numfiles++;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method s
